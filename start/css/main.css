@@ -1,0 +1,8 @@
+body {
+  font-family: Palatino;
+}
+
+.box {
+  background-color: lightblue;
+  width: 25%;
+}

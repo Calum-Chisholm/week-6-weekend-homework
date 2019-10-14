@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Favourite Cars</title>
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+  </head>
+  <body>
+    <form id="new-item-form">
+      <div id="form-wrapper">
+        <div class="form-item">
+          <label for="manufacturer" class="primary">Manufacturer</label>
+          <select id="manufacturer">
+            <option value="" disabled selected></option>
+            <option value="Ford">Ford</option>
+            <option value="Tesla">Tesla</option>
+            <option value="Alfa romeo">Alfa romeo</option>
+            <option value="Corvette">Corvette</option>
+          </select>
+        </div>
+
+        <div class="model-form-item">
+          <label for="Model" class="primary">Model</label>
+          <select id="model">
+            <option value="" disabled selected></option>
+            <option value="Petrol">Petrol</option>
+            <option value="Diesel">Diesel</option>
+            <option value="Electric">Electric</option>
+            <option value="Hybrid">Hybrid</option>
+          </select>
+        </div>
+
+        <div class="form-item">
+          <label for="colour" class="primary">Colour</label>
+      <input type="text" id="colour" required/>
+        </div>
+      </div>
+      <input type="submit" value="save"/>
+    </form>
+
+    <h1>Car List</h1>
+    <div id="car-list"></div>
+  </body>
+</html>
